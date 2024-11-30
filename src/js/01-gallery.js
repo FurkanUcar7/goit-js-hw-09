@@ -85,9 +85,6 @@ const galleryItems = images
   .join('');
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryItems);
-// galleryContainer.addEventListener("click", (event) => {
-//   event.preventDefault();
-// });
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
